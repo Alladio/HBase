@@ -1,0 +1,5 @@
+cqlsh
+...
+
+help
+help alter

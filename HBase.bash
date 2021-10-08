@@ -13,6 +13,8 @@ hbase shell
 #se entrar no SafeMode | Como se fosse um Fdisk
 sudo -u hdfs hadoop fsck / | egrep -v '^/.+$' | grep -v eplica
 
+#Ambiente Cluster é mais fácil recuperar os arquivos
+
 
 #Caso dê erros
 sudo -u hdfs hdfs dfs -rm  “caminho do arquivo(tirar aspas)”
